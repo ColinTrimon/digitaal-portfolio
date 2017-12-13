@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <style media="screen">
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    ul li {
+      display: inline-block;
+    }
+      ul li ul {
+        display: none;
+        position: absolute;
+      }
+
+      ul li:hover ul {
+        display: block;
+      }
+
+      ul li ul li {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+
+    <nav>
+      <ul>
+        <li>Hoi</li>
+        <li>
+          <a href="#">Dropdown</a>
+          <ul>
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+          </ul>
+        </li>
+        <li>Hoi</li>
+      </ul>
+    </nav>
+
+  </body>
+</html>
